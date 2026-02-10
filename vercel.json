@@ -1,21 +1,4 @@
 {
   "version": 2,
-  "rewrites": [
-    {
-      "source": "/static/(.*)",
-      "destination": "/public/static/$1"
-    },
-    {
-      "source": "/favicon.ico",
-      "destination": "/public/favicon.ico"
-    },
-    {
-      "source": "/favicon.svg",
-      "destination": "/public/favicon.svg"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/api/index.js"
-    }
-  ]
+  "framework": "vite"
 }
